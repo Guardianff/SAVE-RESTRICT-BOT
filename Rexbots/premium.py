@@ -77,7 +77,7 @@ async def my_plan(client: Client, message: Message):
 
     buttons = InlineKeyboardMarkup([
         [InlineKeyboardButton("💎 View Premium Plans", callback_data="premium_plans_btn")],
-        [InlineKeyboardButton("📞 Contact Admin", url="https://t.me/DmOwner")]
+        [InlineKeyboardButton("📞 Contact Admin", url="https://t.me/about_zani")]
     ])
 
     await message.reply_text(
